@@ -68,6 +68,8 @@ editamos los archivos para copnfigurar el puerto de escucha y el noimbre del ser
 ![image](https://github.com/user-attachments/assets/dd52359f-cf5f-4918-9278-89dbdae0eefb)
 
 con sudo apt install phpmyadmin -y instalamos phpmyadmin, se nos va a empezar a decargar y despues nos aparecera opciones de configuracion 
+
+
 ![image](https://github.com/user-attachments/assets/16c9a02e-7a98-4298-9b0d-372ee2086047)
 ![image](https://github.com/user-attachments/assets/c32f6e85-addb-4fd3-b431-5d84d9f468eb)
 ![image](https://github.com/user-attachments/assets/37cff844-087a-447b-bb84-35d1dfc030f7)
