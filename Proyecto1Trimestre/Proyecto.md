@@ -8,7 +8,16 @@ Instalamos Apache desde el terminal con el comando que aparece en la imagen:
 
 Lo habilitamos con sudo systemctl enable apache2
 
-![](![image](https://github.com/user-attachments/assets/ca10f7fb-bd15-4ff1-a969-fffa0786bd5e)
+![](https://github.com/user-attachments/assets/ca10f7fb-bd15-4ff1-a969-fffa0786bd5e)
+
+Comprobamos que esta instalado con el localhost
+
+![](https://github.com/user-attachments/assets/e888712a-8742-4515-91a9-44b097c3c1f6)
+
+abrimos el archivo hosts con nano para configurar los hosts virtuales
+![](https://github.com/user-attachments/assets/ebcb2414-7a73-483e-9591-c9c34c46c04a)
+
+
 
 
 
