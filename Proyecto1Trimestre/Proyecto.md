@@ -4,7 +4,7 @@
 
 Instalamos Apache desde el terminal con el comando que aparece en la imagen:
 
-![image](https://github.com/user-attachments/assets/557f5cc2-57b5-4bf8-8de1-bd1dc4843800)
+![image](https://github.com/user-attachments/assets/15969bb1-bf2a-444d-adda-ea103f0f8ed6)
 
 Lo habilitamos con sudo systemctl enable apache2
 
