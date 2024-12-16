@@ -28,13 +28,23 @@ y las diferentes tablas
 
 ![image](https://github.com/user-attachments/assets/f69a3404-4dd3-4bea-ac00-9c25865637fc)
 
+instalar el paquete libaprutil1-dbd-mysql, que es una biblioteca necesaria para que el servidor Apache pueda conectarse y autenticarse usando una base de datos MySQL.
+
 ![image](https://github.com/user-attachments/assets/518c3f26-5484-4864-9043-254f93f3e76a)
 
+Vamos a configurar el archivo de configuracion de apache 
 ![image](https://github.com/user-attachments/assets/c1fa1443-1aa1-4203-a807-52e81b5524ab)
+
+Cuando se abra vamos a añadir al final del archivo las siguientes lineas donde le vamos a pasar la nombre de la base de datos,
+el usuario y la contraseña, y un select para que coja el usuario y la contraseña
 
 ![image](https://github.com/user-attachments/assets/2fb70d0c-2938-4e9a-b9c9-b83d75102332)
 
+Vamos a editar el archivo del sitio predeterminado:
+
 ![image](https://github.com/user-attachments/assets/0a550c31-b5dc-42cd-84f3-231a52d8b050)
+
+Vamos a agregar en el bloque del Virtual Host las siguientes lineas
 
 ![image](https://github.com/user-attachments/assets/d1fd4afa-479f-40f7-b291-b229708cc97e)
 
