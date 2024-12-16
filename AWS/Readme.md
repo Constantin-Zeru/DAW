@@ -6,6 +6,9 @@ Una vez echo eso vamos a instalar apache con el siguiente comando
 
 ![image](https://github.com/user-attachments/assets/c5b4d794-c2cc-4515-8a88-5b343ea04e59)
 
+cuando se a instalado apache y no a dado ningun problema la descarga vamos a iniciar apache y 
+lo vamos a se utilizar para configurar el servicio de Apache para que se inicie automáticamente cada vez que el sistema arranque.
+
 ![image](https://github.com/user-attachments/assets/51b35c8d-d1af-413d-b79f-b20e1e16aeee)
 
 ![image](https://github.com/user-attachments/assets/18465fc7-255f-4cea-ab5f-12229fd1c1f0)
