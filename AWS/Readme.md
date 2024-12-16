@@ -48,16 +48,24 @@ Vamos a agregar en el bloque del Virtual Host las siguientes lineas
 
 ![image](https://github.com/user-attachments/assets/d1fd4afa-479f-40f7-b291-b229708cc97e)
 
+Una vez hemos echo eso, vamos a craer con mkdir el directorio donde va a estar el index.html
+
 ![image](https://github.com/user-attachments/assets/85d1096d-a6e9-4c32-a555-dcc424c65b73)
+
+Por temas de permisos vamos a utilizar la funcionalidad touch para darle permisos elevados al directorio,
 
 ![image](https://github.com/user-attachments/assets/fd8e76ff-6be6-4400-a3fd-fdf9c3cd0cd2)
 
+Abrimos el archivo index.html 
 ![image](https://github.com/user-attachments/assets/a7ed77a9-5b91-4cb6-849f-3e5ef5e4d626)
 
 ![image](https://github.com/user-attachments/assets/6e11fc62-706c-4432-adf9-b2e282a66975)
 
+Y le damos un mensaje de bienvenida o informativo
+
 ![image](https://github.com/user-attachments/assets/3e028f38-d0e6-43dd-948b-0cd096e0d306)
 
+Reiniciamos el apache para aplicar los cambios 
 ![image](https://github.com/user-attachments/assets/b5263d96-7ee8-4efd-96ab-6893c7c6cbf4)
 
 ![image](https://github.com/user-attachments/assets/9c633b7d-d4e2-46cb-8776-26700577d956)
