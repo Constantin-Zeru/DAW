@@ -1,5 +1,8 @@
+Vamos a actualizar los paquetes de apache antes de instalarlo para tenerlos todos actualizados
 
 ![image](https://github.com/user-attachments/assets/e2f5c111-34c9-46eb-a918-04f7f25aa68e)
+
+Una vez echo eso vamos a instalar apache con el siguiente comando
 
 ![image](https://github.com/user-attachments/assets/c5b4d794-c2cc-4515-8a88-5b343ea04e59)
 
@@ -40,6 +43,30 @@
 ![image](https://github.com/user-attachments/assets/417233ac-0a6b-4acd-8880-ebd43b517cc4)
 
 ![image](https://github.com/user-attachments/assets/9f135a78-69d6-4046-bcf9-83273de0c7fa)
+
+![image](https://github.com/user-attachments/assets/cabc3bb3-f98c-4d27-be65-253dd64f5e7f)
+
+![image](https://github.com/user-attachments/assets/2f0ffaef-0da3-4334-bf08-a7ccb4853282)
+
+![image](https://github.com/user-attachments/assets/9c735e8e-2d4d-4089-b720-98d43ddb2c7a)
+
+![image](https://github.com/user-attachments/assets/bacccf7f-d4b9-414b-bda5-6fb5ead6ab8b)
+
+![image](https://github.com/user-attachments/assets/19897122-8676-4dc4-8e8f-1e8ad0727619)
+
+![image](https://github.com/user-attachments/assets/43269691-27c6-4d99-befb-e57999bf0f39)
+
+![image](https://github.com/user-attachments/assets/b37d6bc7-6f17-42d5-974d-be8e0bba6197)
+
+![image](https://github.com/user-attachments/assets/b7aa660b-8549-42b3-ba9a-5861707626e8)
+
+
+
+
+
+
+
+
 
 
 
