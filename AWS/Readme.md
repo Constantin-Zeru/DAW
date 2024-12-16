@@ -19,8 +19,12 @@ Una vez que se a instalado bien vamos a iniciar y establer el mysql como con apa
 
 ![image](https://github.com/user-attachments/assets/a8f3255c-eff8-4140-a456-6412ccafa7e2)
 
+Vamos a abirir la base de datos con el siguiente comando
 
 ![image](https://github.com/user-attachments/assets/7534cab8-9b6f-4b5c-86d1-6e262ac59e8e)
+
+Una vez que la tenemos abierta vamos a crear la base de datos de los usuarios, el admin
+y las diferentes tablas 
 
 ![image](https://github.com/user-attachments/assets/f69a3404-4dd3-4bea-ac00-9c25865637fc)
 
