@@ -11,9 +11,14 @@ lo vamos a se utilizar para configurar el servicio de Apache para que se inicie 
 
 ![image](https://github.com/user-attachments/assets/51b35c8d-d1af-413d-b79f-b20e1e16aeee)
 
+Vamos a instalar la base de datos de mysql, con este comando
+
 ![image](https://github.com/user-attachments/assets/18465fc7-255f-4cea-ab5f-12229fd1c1f0)
 
+Una vez que se a instalado bien vamos a iniciar y establer el mysql como con apache 
+
 ![image](https://github.com/user-attachments/assets/a8f3255c-eff8-4140-a456-6412ccafa7e2)
+
 
 ![image](https://github.com/user-attachments/assets/7534cab8-9b6f-4b5c-86d1-6e262ac59e8e)
 
