@@ -96,10 +96,9 @@ Habilitamos el sitio SSL
 
 ![image](https://github.com/user-attachments/assets/bacccf7f-d4b9-414b-bda5-6fb5ead6ab8b)
 
-Utilizamos el siguiente comando sudo systemctl reload apache2 para recargar la configuración de Apache sin detener el servicio completamente.
-
 ![image](https://github.com/user-attachments/assets/19897122-8676-4dc4-8e8f-1e8ad0727619)
 
+Utilizamos el siguiente comando sudo systemctl reload apache2 para recargar la configuración de Apache sin detener el servicio completamente.
 
 ![image](https://github.com/user-attachments/assets/43269691-27c6-4d99-befb-e57999bf0f39)
 
