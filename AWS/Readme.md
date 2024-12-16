@@ -68,24 +68,42 @@ Y le damos un mensaje de bienvenida o informativo
 Reiniciamos el apache para aplicar los cambios 
 ![image](https://github.com/user-attachments/assets/b5263d96-7ee8-4efd-96ab-6893c7c6cbf4)
 
+Habilitamos el modulo ssl con el siguiente comando
+
 ![image](https://github.com/user-attachments/assets/9c633b7d-d4e2-46cb-8776-26700577d956)
+
+Y reiniciamos el apache para guardar los cambios
 
 ![image](https://github.com/user-attachments/assets/417233ac-0a6b-4acd-8880-ebd43b517cc4)
 
+Una vez que eso esta echo, vamos a crear el certificado SSL autofirmado
+
 ![image](https://github.com/user-attachments/assets/9f135a78-69d6-4046-bcf9-83273de0c7fa)
+
+Completamos los campos que hagan falta o algunos los podemos dejar en blanco que no nos va a dar error
 
 ![image](https://github.com/user-attachments/assets/cabc3bb3-f98c-4d27-be65-253dd64f5e7f)
 
+Editamos el archivo SSL
+
 ![image](https://github.com/user-attachments/assets/2f0ffaef-0da3-4334-bf08-a7ccb4853282)
+
+Incluimos las rutas de los certificados
 
 ![image](https://github.com/user-attachments/assets/9c735e8e-2d4d-4089-b720-98d43ddb2c7a)
 
+Habilitamos el sitio SSL
+
 ![image](https://github.com/user-attachments/assets/bacccf7f-d4b9-414b-bda5-6fb5ead6ab8b)
+
+Utilizamos el siguiente comando sudo systemctl reload apache2 para recargar la configuración de Apache sin detener el servicio completamente.
 
 ![image](https://github.com/user-attachments/assets/19897122-8676-4dc4-8e8f-1e8ad0727619)
 
+
 ![image](https://github.com/user-attachments/assets/43269691-27c6-4d99-befb-e57999bf0f39)
 
+Con la ip de nuestra instancia/protegido que es la carpeta que hemos creado antes en la barra de busqueda si todo lo hemos echi bien nos va a pedir autentificarnos con el usuario y la contraseña
 ![image](https://github.com/user-attachments/assets/b37d6bc7-6f17-42d5-974d-be8e0bba6197)
 
 ![image](https://github.com/user-attachments/assets/b7aa660b-8549-42b3-ba9a-5861707626e8)
