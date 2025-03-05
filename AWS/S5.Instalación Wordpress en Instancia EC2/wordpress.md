@@ -1,14 +1,15 @@
 kdfjghldkj
 
-![image](https://github.com/user-attachments/assets/1f1400c2-8bdf-4dd9-8d60-427518fac4d1)
+![image](https://github.com/user-attachments/assets/74d88fbe-8eb4-4df3-a60b-1bb81cb5ee1e)
+
 
 hdfhsdf
 
-![image](https://github.com/user-attachments/assets/67ff2d35-4328-4c22-94b3-4322ca455a5a)
+![image](https://github.com/user-attachments/assets/34d1d2f3-325d-430a-add9-e412d8788f62)
 
 dfskljñdf
 
-![image](https://github.com/user-attachments/assets/5a297923-f673-417a-b4a5-12c26824c168)
+![image](https://github.com/user-attachments/assets/5e822b5f-c1f4-4327-a947-6b80f4b21909)
 
 sjksdñ
 
