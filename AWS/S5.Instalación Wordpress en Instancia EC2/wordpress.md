@@ -13,15 +13,19 @@ dfskljñdf
 
 sjksdñ
 
-![image](https://github.com/user-attachments/assets/5603831c-e98e-437c-8c12-e0e7d5da13d1)
+![image](https://github.com/user-attachments/assets/cfff8a8c-83d6-4274-99f2-70b5992cfbe8)
+
 
 dsada
+![image](https://github.com/user-attachments/assets/a2d1d1e4-1630-472c-be51-bac7a054f2fc)
 
-![image](https://github.com/user-attachments/assets/7b75cbb5-3866-4fc8-b198-dfdf89b261ca)
 
 jsdaljsd
 
-![image](https://github.com/user-attachments/assets/780b0c55-5584-4e6a-ac5a-17838c9d37c8)
+![image](https://github.com/user-attachments/assets/6ba9b593-eaa6-4629-be5b-234534d69fef)
+
 
 fdsdfds
+
+
 
