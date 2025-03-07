@@ -1,22 +1,18 @@
-kdfjghldkj
-
+Nos tenemos que ir al apartado de vpc dentro del aws y crear una vpc, seleccionamos la opcion de una vpc y mas, le damos un nombre, le asignaos una ip principal, que despues se va a dividir en 4 subredes, 2 de ambito privado y 2 de ambito publico.
 ![image](https://github.com/user-attachments/assets/68528a84-2339-4146-a26f-57a3a67566ce)
-
-
-hdfhsdf
 
 ![image](https://github.com/user-attachments/assets/caadff9a-2032-4db7-8a5c-c33157d09b30)
 
-dfskljñdf
+Vamos a darle las direcciones ip publicas y privadas, una vez que este configurado como esta en la foto, le vamos a dar a crear vpc, se nos va a cargar y se nos va a mostrar toda la informacion de esa nueva vpc.
 
 ![image](https://github.com/user-attachments/assets/03934846-3b87-4ce0-a056-c0e4babf995c)
 
-sjksdñ
+Ahora vamos a crear la instancia para hacer el proyecto, dentro de aws tenemos que buscar el apartado de ec2, una vez la hemos encontrado vamos a darle y hay un boton que pone lanzar instancia le damos y se nos habre lo que esta en la foto para configurar la instancia, le damos un nombre y seleccionamos un sistema operativo para esa maquina, que en mi caso va a ser ubuntu que se adapta mejor a mi proyecto
 
 ![image](https://github.com/user-attachments/assets/cfff8a8c-83d6-4274-99f2-70b5992cfbe8)
 
 
-dsada
+
 ![image](https://github.com/user-attachments/assets/a2d1d1e4-1630-472c-be51-bac7a054f2fc)
 
 
