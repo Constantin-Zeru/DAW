@@ -1,19 +1,19 @@
 kdfjghldkj
 
-![image](https://github.com/user-attachments/assets/74d88fbe-8eb4-4df3-a60b-1bb81cb5ee1e)
+![image](https://github.com/user-attachments/assets/68528a84-2339-4146-a26f-57a3a67566ce)
 
 
 hdfhsdf
 
-![image](https://github.com/user-attachments/assets/34d1d2f3-325d-430a-add9-e412d8788f62)
+![image](https://github.com/user-attachments/assets/caadff9a-2032-4db7-8a5c-c33157d09b30)
 
 dfskljñdf
 
-![image](https://github.com/user-attachments/assets/5e822b5f-c1f4-4327-a947-6b80f4b21909)
+![image](https://github.com/user-attachments/assets/03934846-3b87-4ce0-a056-c0e4babf995c)
 
 sjksdñ
 
-![image](https://github.com/user-attachments/assets/f23afade-f3c0-41b0-9162-9b83020a8e71)
+![image](https://github.com/user-attachments/assets/5603831c-e98e-437c-8c12-e0e7d5da13d1)
 
 dsada
 
