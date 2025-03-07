@@ -1,40 +1,42 @@
 Nos tenemos que ir al apartado de vpc dentro del aws y crear una vpc, seleccionamos la opcion de una vpc y mas, le damos un nombre, le asignaos una ip principal, que despues se va a dividir en 4 subredes, 2 de ambito privado y 2 de ambito publico.
 ![image](https://github.com/user-attachments/assets/68528a84-2339-4146-a26f-57a3a67566ce)
 
-![image](https://github.com/user-attachments/assets/caadff9a-2032-4db7-8a5c-c33157d09b30)
-
 Vamos a darle las direcciones ip publicas y privadas, una vez que este configurado como esta en la foto, le vamos a dar a crear vpc, se nos va a cargar y se nos va a mostrar toda la informacion de esa nueva vpc.
 
-![image](https://github.com/user-attachments/assets/03934846-3b87-4ce0-a056-c0e4babf995c)
+![image](https://github.com/user-attachments/assets/caadff9a-2032-4db7-8a5c-c33157d09b30)
 
 Ahora vamos a crear la instancia para hacer el proyecto, dentro de aws tenemos que buscar el apartado de ec2, una vez la hemos encontrado vamos a darle y hay un boton que pone lanzar instancia le damos y se nos habre lo que esta en la foto para configurar la instancia, le damos un nombre y seleccionamos un sistema operativo para esa maquina, que en mi caso va a ser ubuntu que se adapta mejor a mi proyecto
 
+![image](https://github.com/user-attachments/assets/03934846-3b87-4ce0-a056-c0e4babf995c)
+
+Despues hay que asociarle la vpc a la instancia para poder trabajr con las subredes que hemos creado antes, seleccionamos las claves vockey para poder conectarnos con ssh si fuera necesario, y editamos la configuracion de red donde vamos a trabajar con la vpc, y en la red vamos a poner la vpc que se a creado antes y en la subred vamos a poner la subred publica 2, vamos a configurar el grupo de seguridad de la instancia y le vamos a añadir reglas de entradas para conectarnos a apache y a wordpress en un futuro como pide la practica, una vez tengamos echo eso vamos a darle a crear instancia.
 ![image](https://github.com/user-attachments/assets/cfff8a8c-83d6-4274-99f2-70b5992cfbe8)
 
 
+Se nos crea la instancia y si le damos al nombre podemos ver toda la informacion de la instancia, despues en un apartado arriba tiene que haber un boton que pone conectarse, le damos y se nos habre el menu de la imagen con la ip publica que nos va a hacer falta mas adelante para el apache y el wordpress, le damos a conectarse y se nos tiene que iniciar la instancia en modo comandos.
 
 ![image](https://github.com/user-attachments/assets/a2d1d1e4-1630-472c-be51-bac7a054f2fc)
 
 
-jsdaljsd
+Aqui ya tenemos la instancia funcionando bien, ya aqui vamos a hacer las distintas operaciones para instalar apache, wordpress y todo lo necesario.
 
 ![image](https://github.com/user-attachments/assets/6ba9b593-eaa6-4629-be5b-234534d69fef)
 
 
-fdsdfds
+Vamos a comenzar por instalar apache, para eso siempre hay que poner al dia los paquetes de la instancia para que esten actualizados a la ultima version con este comando sudo apt update && sudo apt upgrade -y
 
 ![image](https://github.com/user-attachments/assets/8d480562-bbd8-4f1d-82d1-8c463399cae5)
 
-gcjhjkghj
+Una vez que tengamos esto echo, vamos a instalar el apache, para eso vamos a utilizar el siguiente comando sudo apt install apache2
 ![image](https://github.com/user-attachments/assets/b04abec0-ce48-45bf-8105-14ade7b8b279)
 
-fdgdgdf
+Si no hay ningun error, en el propio navegar utilizaremos nuestra ip de la instancia y nos debera llevar a la pagina inicial de apache como muestra en la imagen, como en las reglas de entrada hemso habilitado http y https solo con la ip nos vale si esta bien configurado la instancia y los pasos de los comandos en la instancia.
 ![image](https://github.com/user-attachments/assets/4aac11c2-b3b6-4941-ba9d-8e8c2bfc4da7)
 
-gjhjgf
+Ahora para ir preparando la base de datos vamos a instalar el php con el siguinete comando sudo apt install php libapache2-mod-php php-cli
 ![image](https://github.com/user-attachments/assets/78315f8e-17e3-41f5-bc99-6ed4c40d7b54)
 
-hfghgf
+Una vez que tengamos eso echo vamos a instalar el mysql para comunicarnos con la base de datos con el siguinete comando sudo apt install php-mysql
 ![image](https://github.com/user-attachments/assets/2427e4b3-62e9-4b24-acb5-eecfc8259c27)
 
 jhjhg
