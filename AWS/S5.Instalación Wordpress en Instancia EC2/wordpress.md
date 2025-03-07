@@ -102,22 +102,23 @@ Ahora nos dirigiremos al menú de RDS para copiar el punto de enlace y conectarn
 con este comado mysql -u admin -h (enlace) -p nos vamos a conectar a la base de datos.
 ![image](https://github.com/user-attachments/assets/f820fb83-4898-4ea0-9b01-e43dfc04debc)
 
-
+Ahora ejecutaremos las siguientes líneas de MySQL para crear nuestra base de datos Wordpress:
 ![image](https://github.com/user-attachments/assets/89b6632f-675b-465d-a5dd-7ada9641bb92)
 
-
+Salimos de la linea de comandos y vamos al navegador y con la ip de la instancia otra vez per esta vez le añadimos ip/wordpress y se nos va a la pagina de configuracion de wordpress 
 ![image](https://github.com/user-attachments/assets/f9ed340b-72f8-4201-babb-fe61674ac545)
 
-hjyhj
+Cuando le demos a login en la otra pagina se nos abre la configuracion, le vamos a dar un nombre a la base de datos, una conraseña y el enlace de la base de datos que hemos creado antes.
 ![image](https://github.com/user-attachments/assets/85220a83-7dd9-4fa7-b5a3-292af7243672)
 
-dsfsd
+Ejecutamos los siguientes compandos para crear un fichero en el que pgar los datos que nos ha proporcionado el WordPress
+cd /var/www/html sudo nano wp-config.php
 ![image](https://github.com/user-attachments/assets/44fc2325-0860-463d-822e-ffeb518ef7ef)
 
-sdfsd
+Ya que tenemso esta parte echa vamos al na vegador otra vez y vamos a darle un titulo, un usuario, una contraseña y un correo y al terminar le daremos a install WordPress
 ![image](https://github.com/user-attachments/assets/d0c8eb2e-9ca7-4b19-a430-86eefd8456e2)
 
-dsfsd
+Recargamos la pagina y nos saldra las credenciales, ponemos las credenciales que hemos creado enates con nuestro usuario y nuestra contraseña y estamos dentro.
 ![image](https://github.com/user-attachments/assets/a9848e68-cbbb-4e15-8361-e00d63e3c80c)
 
 
