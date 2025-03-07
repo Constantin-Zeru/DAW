@@ -39,73 +39,72 @@ Ahora para ir preparando la base de datos vamos a instalar el php con el siguine
 Una vez que tengamos eso echo vamos a instalar el mysql para comunicarnos con la base de datos con el siguinete comando sudo apt install php-mysql
 ![image](https://github.com/user-attachments/assets/2427e4b3-62e9-4b24-acb5-eecfc8259c27)
 
-jhjhg
+Ahora vamos a buscar en aws una opcion que se llama rds para crear la base de datos y trabajar con ella para poder crear wordpress, como vez en la imagen hay que darle a la opcion de crear base de datos, despues se nos abre la configuracion de esa base de daatos
 ![image](https://github.com/user-attachments/assets/a811038b-2900-4282-aeb7-6c2261077ba1)
 
-hfgjhgh
+Ya aqui vamos a configuarar la base de datos con un nombre, vamos a escoger el paquete MySQL que es la version mas conocida y con la que mas comodo se trabaja
 ![image](https://github.com/user-attachments/assets/6bd8e5dc-24c4-4e6f-b11a-7ce0e2bf3a0d)
 
-jkguyjhkl
+Escogemos la capa gratuita que nos va a funcionar para las pruebas basicas y el paquete por defecto que nos da opcion.
 ![image](https://github.com/user-attachments/assets/39e9ff00-2694-4ebb-8e60-711e8b0de77f)
 
-uykyuk
+Aqui ya si le damos un nombre a la base de datos, vanos a administrar nosotros mismos los usuarios y las contraseñas asi que seleccionamos la opcion de autoadministrado, una vez echo eso le vamos a dar un nombre de usuario y una contraseña
 ![image](https://github.com/user-attachments/assets/ae3eb798-657e-4a86-8453-301d16ac9649)
 
-gkhjjh
+Ahora en la parte de conectividad vamos a asociar la vpc que hemos creado a esta base de datos para que nos podamos comunicar, tambien creamos un nuevo grupo de seguridad donde le daremos las reglas de entrada mas adelante
 ![image](https://github.com/user-attachments/assets/46a70e07-7179-445b-9382-40643b794b47)
 
-jhkjhyg
 ![image](https://github.com/user-attachments/assets/3ccc3611-77b5-49f0-a847-f19917ad4ea5)
 
-hgrgfhfg
+Si le queremos dar mas detalles a la base de datos en configuracion adicional le podemos dar otros nombres tambien, pero ahi no he tocado mucho, casi todo se deja por defecto, una vez echo eso le damos a crear base de datos y listo ya la tenemos creada
 ![image](https://github.com/user-attachments/assets/c915487a-2176-4f0f-8981-f0270ccdce6e)
 
-hjkhk
+Cuando se haya creado la base de datos se nos actualiza la pagina y nos sale la base de datos, la selecionamos y en acciones le vamos a dar a configurar la conexion de ec2 y se nos habre la siguinete ventana
 ![image](https://github.com/user-attachments/assets/3fc57c5f-e045-4bee-8bdb-25ebe1b8a1bb)
 
-hjkhjglk
+En esta parte donde pone instancia ec2 le vamos a asociar la isntancia con la que estamos trabajando y le damos a continuar, en la siguinete parte se nos abre una ventana con la informacion de configuracion y le damos a continuar o a finalizar.
 ![image](https://github.com/user-attachments/assets/4699ab6f-cdd4-41cd-8419-e51c98bee80c)
 
-jhkhj
+A continuación, deberemos crear el sistema de almacenamiento externo que vamos a conectar a la instancia y que más tarde conectaremos a wordpress, para ello en el buscador de AWS buscamos EFS y le daremos al primer resultado, en el submenu le daremos a sistema de archivos, se nos pone esta ventana que esta en la imagen le damos a crear un sistema de archivos
 ![image](https://github.com/user-attachments/assets/4f9d60f0-2d65-49e6-9881-f8b398ecce32)
 
-fghjg
+Ahora se nos toca configurar ese sistema de archivos, le damos un nombre y le asociamos nuestra vpc.
 ![image](https://github.com/user-attachments/assets/d4da6774-6c76-411d-81bf-7af2935fb713)
 
-fdssdf
+Se nos crea el sistema de archivos, cuando lo tenemos lo seleccionamos y en le damos a detalles para que se nos habra toda la informacion, debajo del recuadro de la informacion hay un apartado con distintamos opciones y buscamos red y le damos a administrar se nos abre esta ventana y ahi le vamosa agregar el grupo de seguridad que hemos creado antes y le damos a guardar.
 ![image](https://github.com/user-attachments/assets/891ff086-57a2-4f1b-b5a6-2c9513ff87a9)
 
-gfjhghj
+A ese grupo de seguridad que hemos creado antes y le hemos asignado al sistema de archivos que hemos creado antes, para llegar al grupo de seguridad hay que ir a ec2-grupo de seguridad-seleccionamos el que hemos creado al principio y le editamos las reglas de entrada.
 ![image](https://github.com/user-attachments/assets/4595aea7-3057-4c08-b155-d17f929c5b5d)
 
-fgdfhg
+Estos dos pasos estan para poder copiar direcciones que se van a utilizar mas adelante en linea de comandos
 ![image](https://github.com/user-attachments/assets/91dda7bc-ac13-466c-868a-a4d8292ccd26)
 
-dsfgdsg
 ![image](https://github.com/user-attachments/assets/b5319224-d99b-4ae9-8a63-4bcd7a564173)
 
-hgjh
+Ahora vamos a instalar el paquete nfs con el siguiente comando sudo apt-get install nfs-common
 ![image](https://github.com/user-attachments/assets/d9275226-3f2d-4e81-886c-be2751a52b6e)
 
-safasdfa
+Una vez que tengamos el paquete bien instalado vamos a crear una carpeta que va a ser el directorio principal y seguidamente pegamos el comando que copiamos antes en el apartado de efs para conectar la instancia EC2 con la EFS.
 ![image](https://github.com/user-attachments/assets/e96f3991-a9bd-4977-a898-be2e8bebd506)
 
-sfdsaf
+Nos movemos al directorio principal con cd /var/www/html
 ![image](https://github.com/user-attachments/assets/76e10449-84e3-425d-b09d-a1848253fc89)
 
-sfdjghids
+Una vez dentro descargamos el archivo comprimido de wordpress con el comando sudo wget http://wordpress.org/latest.tar.gz
 ![image](https://github.com/user-attachments/assets/805fa734-c10b-428b-a5d8-360b3db7f1fe)
 
-dsfsd
+Descomprimimos el archivo de wordpres que hemos descargado antes con el comando sudo tar -xf latest.tar.gz
 ![image](https://github.com/user-attachments/assets/b9a93b87-28d3-4152-9180-6c94db401f51)
 
-ghujh
+Una vez tenemos echo eso vamos a instalar el cliente MySQL con el siguinete comando sudo apt install default-mysql-client
 ![image](https://github.com/user-attachments/assets/f820fb83-4898-4ea0-9b01-e43dfc04debc)
 
-dfsd
+Ahora nos dirigiremos al menú de RDS para copiar el punto de enlace y conectarnos a la base de datos EFS que creamos anteriormente. En esta sección, buscaremos nuestra base de datos y accederemos para copiar el punto de enlace, una vez heccho ejecutaremos el siguiente comando para conectarnos a la base de datos. 
+con este comado mysql -u admin -h (enlace) -p nos vamos a conectar a la base de datos.
 ![image](https://github.com/user-attachments/assets/89b6632f-675b-465d-a5dd-7ada9641bb92)
 
-DEFSD
+
 ![image](https://github.com/user-attachments/assets/f9ed340b-72f8-4201-babb-fe61674ac545)
 
 hjyhj
