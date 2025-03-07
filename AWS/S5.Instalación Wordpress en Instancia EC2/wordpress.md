@@ -80,28 +80,29 @@ A ese grupo de seguridad que hemos creado antes y le hemos asignado al sistema d
 Estos dos pasos estan para poder copiar direcciones que se van a utilizar mas adelante en linea de comandos
 ![image](https://github.com/user-attachments/assets/91dda7bc-ac13-466c-868a-a4d8292ccd26)
 
+Ahora vamos a instalar el paquete nfs con el siguiente comando sudo apt-get install nfs-common
 ![image](https://github.com/user-attachments/assets/b5319224-d99b-4ae9-8a63-4bcd7a564173)
 
-Ahora vamos a instalar el paquete nfs con el siguiente comando sudo apt-get install nfs-common
+Una vez que tengamos el paquete bien instalado vamos a crear una carpeta que va a ser el directorio principal y seguidamente pegamos el comando que copiamos antes en el apartado de efs para conectar la instancia EC2 con la EFS.
 ![image](https://github.com/user-attachments/assets/d9275226-3f2d-4e81-886c-be2751a52b6e)
 
-Una vez que tengamos el paquete bien instalado vamos a crear una carpeta que va a ser el directorio principal y seguidamente pegamos el comando que copiamos antes en el apartado de efs para conectar la instancia EC2 con la EFS.
+Nos movemos al directorio principal con cd /var/www/html
 ![image](https://github.com/user-attachments/assets/e96f3991-a9bd-4977-a898-be2e8bebd506)
 
-Nos movemos al directorio principal con cd /var/www/html
+Una vez dentro descargamos el archivo comprimido de wordpress con el comando sudo wget http://wordpress.org/latest.tar.gz
 ![image](https://github.com/user-attachments/assets/76e10449-84e3-425d-b09d-a1848253fc89)
 
-Una vez dentro descargamos el archivo comprimido de wordpress con el comando sudo wget http://wordpress.org/latest.tar.gz
+Descomprimimos el archivo de wordpres que hemos descargado antes con el comando sudo tar -xf latest.tar.gz
 ![image](https://github.com/user-attachments/assets/805fa734-c10b-428b-a5d8-360b3db7f1fe)
 
-Descomprimimos el archivo de wordpres que hemos descargado antes con el comando sudo tar -xf latest.tar.gz
-![image](https://github.com/user-attachments/assets/b9a93b87-28d3-4152-9180-6c94db401f51)
-
 Una vez tenemos echo eso vamos a instalar el cliente MySQL con el siguinete comando sudo apt install default-mysql-client
-![image](https://github.com/user-attachments/assets/f820fb83-4898-4ea0-9b01-e43dfc04debc)
+![image](https://github.com/user-attachments/assets/b9a93b87-28d3-4152-9180-6c94db401f51)
 
 Ahora nos dirigiremos al menú de RDS para copiar el punto de enlace y conectarnos a la base de datos EFS que creamos anteriormente. En esta sección, buscaremos nuestra base de datos y accederemos para copiar el punto de enlace, una vez heccho ejecutaremos el siguiente comando para conectarnos a la base de datos. 
 con este comado mysql -u admin -h (enlace) -p nos vamos a conectar a la base de datos.
+![image](https://github.com/user-attachments/assets/f820fb83-4898-4ea0-9b01-e43dfc04debc)
+
+
 ![image](https://github.com/user-attachments/assets/89b6632f-675b-465d-a5dd-7ada9641bb92)
 
 
