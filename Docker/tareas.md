@@ -27,10 +27,37 @@ Segunda parte:
 ![image](https://github.com/user-attachments/assets/8506f59b-9ab7-4dc0-9d08-84913aad0b32)
 ![image](https://github.com/user-attachments/assets/b2cdc0c3-7fb0-4eee-a47f-5eedbda64694)
 ![image](https://github.com/user-attachments/assets/abbcd9fe-1692-40dd-9bb1-8b2d89401069)
+![image](https://github.com/user-attachments/assets/bff3468e-43be-4b91-8a81-1cdb34134d90)
+![image](https://github.com/user-attachments/assets/fb2ec756-738b-4e8b-bf1e-ec466c724712)
+![image](https://github.com/user-attachments/assets/570479e8-4e06-443c-8491-04d7f7b2c3fa)
+![image](https://github.com/user-attachments/assets/5ea2e282-67f4-45bf-b220-e15e9dca1e95)
+![image](https://github.com/user-attachments/assets/5105cc20-5750-4fa0-b48c-042f0c774809)
+![image](https://github.com/user-attachments/assets/5f6c9945-5f30-4930-a3fb-b18c53a5209a)
 
 cuenta de dockerhub
 ![image](https://github.com/user-attachments/assets/aa375746-77a0-41a5-af8a-2b7348f3b9c0)
 ![image](https://github.com/user-attachments/assets/2eac31f8-2857-421c-af0f-b3c1602f40e1)
+![image](https://github.com/user-attachments/assets/ff0a5ff8-30d0-4d57-a422-79881fd2d527)
+
+Tarea 3:
+
+![image](https://github.com/user-attachments/assets/0c76abdb-a0c6-4489-bf19-b20ef77bc810)
+
+![image](https://github.com/user-attachments/assets/28eab7d7-37c6-4308-8d04-2af7653d05ef)
+![image](https://github.com/user-attachments/assets/b5b21acc-9348-4ee4-b26f-61dc1aef58fb)
+![image](https://github.com/user-attachments/assets/4e420f14-1169-4fba-a9c7-a8d356fb704b)
+![image](https://github.com/user-attachments/assets/c3f4a44b-6f3b-43f8-9950-530ec8f9ba4e)
+![image](https://github.com/user-attachments/assets/a36bec16-3976-48aa-8c53-c5a10b61e1ff)
+![image](https://github.com/user-attachments/assets/c785f4a4-9498-49fa-b8a4-d75d87f924b8)
+![image](https://github.com/user-attachments/assets/ee414c9a-a85f-4272-ad5d-4f632f5d56d2)
+![image](https://github.com/user-attachments/assets/4a374433-e7da-4ff3-bc3b-5720619d5592)
+![image](https://github.com/user-attachments/assets/43012478-7567-4efb-8d36-4b298c9882e8)
+![image](https://github.com/user-attachments/assets/488add18-c631-4043-8b68-b3fabf11516e)
+![image](https://github.com/user-attachments/assets/0e89267d-e591-4242-b218-67527ed6c8a8)
+
+Tarea 4:
+
+
 
 
 
