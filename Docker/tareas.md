@@ -57,6 +57,11 @@ Tarea 3:
 
 Tarea 4:
 
+![image](https://github.com/user-attachments/assets/0117967c-3e97-4e0c-bffe-37d383e61dc7)
+
+![image](https://github.com/user-attachments/assets/0cc2cebf-5234-4080-94ea-04743e9c6a32)
+![image](https://github.com/user-attachments/assets/4f4bd287-c1b0-4eea-9b07-7c3a9822e45a)
+![image](https://github.com/user-attachments/assets/d298ce44-3b1f-471a-9ba0-acfb255671d8)
 
 
 
