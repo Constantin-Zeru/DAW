@@ -12,7 +12,6 @@ Vamos a instalar docker en ubunto que es lo que pide la primera tarea
 ![image](https://github.com/user-attachments/assets/d21e9d97-77f1-4938-9b42-918bc1bbcab0)
 ![image](https://github.com/user-attachments/assets/5fa2637f-831f-4f48-ae2d-07b1dcf09a10)
 ![image](https://github.com/user-attachments/assets/1374ce19-d746-4af3-a4be-a7027bcc5451)
-![image](https://github.com/user-attachments/assets/611f59c3-b93b-46e7-99a3-0bab5cd5d2e0)
 
 
 Tarea 2:
