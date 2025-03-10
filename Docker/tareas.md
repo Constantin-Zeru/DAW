@@ -5,24 +5,30 @@ Vamos a instalar docker en ubunto que es lo que pide la primera tarea
 ![image](https://github.com/user-attachments/assets/e600e726-ab0f-4f53-a616-e5216e143ab1)
 
 Para instaalr docker lo pripero que tenemso que hacer es actualizar los paquetes de ubuntu con el comando sudo apt-get update
+
 ![image](https://github.com/user-attachments/assets/d50fc144-b132-420e-9fec-06fad133afe4)
 
 Despues un sudo apt-get upgrade para instalar esos paquetes actualizados
+
 ![image](https://github.com/user-attachments/assets/41d3e059-f35c-44aa-9bd7-3c2f508296c2)
 
 Hacemos un sudo apt-get remove docker docker-engine docker.io conatinerd runc para desisnstalar los rastos de docker mas antiguos y no nos de conflicto
+
 ![image](https://github.com/user-attachments/assets/b7c6eea1-8ebd-4593-9e74-9c7a0f4fefd7)
 
 
 ![image](https://github.com/user-attachments/assets/26a32b2f-c86e-48f2-85d5-3b58bd83999e)
 
 Ahora en este comando ponemos la web de docker y le añadimos las claves para descargarla
+
 ![image](https://github.com/user-attachments/assets/cb86cdb6-1514-44e0-80bf-1b9c37447c5b)
 
 añadimos el repositorio para trabajar con el en el futuro.
+
 ![image](https://github.com/user-attachments/assets/d21e9d97-77f1-4938-9b42-918bc1bbcab0)
 
 y por ultimo instalamos el cliente docker con ese comando que hay en la foto.
+
 ![image](https://github.com/user-attachments/assets/5fa2637f-831f-4f48-ae2d-07b1dcf09a10)
 
 
@@ -36,16 +42,19 @@ Ahora nos vamos a preparar para la segunda actividad
 1. Ejecutar hello-world
    
 Como en la primera parte ya tenemos docker descargado, nos va a traer la imagen de hello-world echa, asi que con el comando sudo docker run hello-world
+
 ![image](https://github.com/user-attachments/assets/4bd174ce-5c91-49a1-a73f-8c1432276e79)
 
 2. Imagenes docker instaladas
 
 Con el comando sudo docker images nos mostrara directamente las imagenes que tenemos en el ordenador  
+
 ![image](https://github.com/user-attachments/assets/f0eb083a-ac05-4271-a590-3fc39d0edd5e)
 
 3. Mostarar contenedores
 
 Con el comando sudo docker ps nos va a salir todos los conenedores que tenemos en el sistema
+
 ![image](https://github.com/user-attachments/assets/8c6b6eca-c2c3-4c24-b879-1e4cfbeac245)
 
 Segunda parte:
@@ -53,37 +62,60 @@ Segunda parte:
 1. Editar fichero
 
 vamos a crear una carpeta para trabajar sobre ella con el comando mkdir
+
 ![image](https://github.com/user-attachments/assets/ad55bd82-d30f-4668-9160-9d9b165f6991)
 
 Añadimos las lineas que estan en la imagen, impportante en el apartado de actualizar los paquetes escribir bien la palabra curl para que no de fallos.
+
 ![image](https://github.com/user-attachments/assets/8506f59b-9ab7-4dc0-9d08-84913aad0b32)
 
 2. Construir contenedor
 
 Para construir el contenedor, vamos a poner el siguiente comando en el terminal, en mi caso le e puesto el nombre de usuario/el nombre de la imagen con la ultima version
+
 ![image](https://github.com/user-attachments/assets/b2cdc0c3-7fb0-4eee-a47f-5eedbda64694)
 
 3. Ejecutar contenedor
 
 Ahora para ejecutarlo lo que tenemos que hacer poner el comando sudo docker run y el nombre completo del contenedor que hemos creado antes
+
 ![image](https://github.com/user-attachments/assets/bff3468e-43be-4b91-8a81-1cdb34134d90)
 
 4. Cuenta hub.docker.com
 
 Primero tenemos que hacer el login en docker con el comando que sale en la imagen, le vamos a dar al enlace de docker de la imagen, nos va a llevar a una pagina web, tambien necesitamos copiar el codigo de confirmacion que sale en el terminal 
+
 ![image](https://github.com/user-attachments/assets/fb2ec756-738b-4e8b-bf1e-ec466c724712)
 
 Cuando estemos en la pagina web del enlace del terminal, como se explica en el anterior paso vamos a pegar el codigo de confirmacion y vamos a entrar con nuestros credenciales de docker. 
+
 ![image](https://github.com/user-attachments/assets/570479e8-4e06-443c-8491-04d7f7b2c3fa)
 
+Después, es importante que la imagen tenga la etiqueta que incluya mi usuario de Docker Hub. Para ello con el comando que viene abajo le ponemos a la imagenes que hicimos el usuario nuestro y el nombre de la imagen que creamos al principio:
+
+docker tag proyecto costel452/proyectodocker:1.0
 
 ![image](https://github.com/user-attachments/assets/5ea2e282-67f4-45bf-b220-e15e9dca1e95)
+
+Ahora tocaria subirlo con el comando push que sale en la imagen
+
 ![image](https://github.com/user-attachments/assets/5105cc20-5750-4fa0-b48c-042f0c774809)
+
+En la cuenta de hub.docker.com donde hemos creado nuestro proyecto si nos vamos a el y miramos los tag veremos como se a modificado
+
 ![image](https://github.com/user-attachments/assets/5f6c9945-5f30-4930-a3fb-b18c53a5209a)
 
 cuenta de dockerhub
+Nos saldra la pagina principal para registrarnos o iniciar sesion ya
+
 ![image](https://github.com/user-attachments/assets/aa375746-77a0-41a5-af8a-2b7348f3b9c0)
+
+Este seria mi usuario
+
 ![image](https://github.com/user-attachments/assets/2eac31f8-2857-421c-af0f-b3c1602f40e1)
+
+Ahora dentro de repositorios le vamos a dar a crear repositorio y le damos un nombre, lo dejamos en publico y listo
+
 ![image](https://github.com/user-attachments/assets/ff0a5ff8-30d0-4d57-a422-79881fd2d527)
 
 Tarea 3:
