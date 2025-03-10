@@ -119,19 +119,78 @@ Ahora dentro de repositorios le vamos a dar a crear repositorio y le damos un no
 ![image](https://github.com/user-attachments/assets/ff0a5ff8-30d0-4d57-a422-79881fd2d527)
 
 Tarea 3:
-
+Vamos con la siguiente tarea
 ![image](https://github.com/user-attachments/assets/0c76abdb-a0c6-4489-bf19-b20ef77bc810)
 
+1. Descargar imagen Ubuntu
+
+Para descargar ubuntu ponemso el comando de la imagen y listo, no deberia dar ningun error 
+
 ![image](https://github.com/user-attachments/assets/28eab7d7-37c6-4308-8d04-2af7653d05ef)
+
+2. Descargar imagen hello-world
+
+Repetimos el proceso pero cambiamos ubuntu por hello-world
+
 ![image](https://github.com/user-attachments/assets/b5b21acc-9348-4ee4-b26f-61dc1aef58fb)
+
+3. Descargar imagen nginx
+
+El mismo proceso pero con el nombre de nginx
+
 ![image](https://github.com/user-attachments/assets/4e420f14-1169-4fba-a9c7-a8d356fb704b)
+
+4. Listado de imagenes
+
+Con el comando que esta en la imagen nos va a salir toda la infomacion.
+
+![image](https://github.com/user-attachments/assets/7f95d001-dab2-463d-9adf-0ee5fc7387d5)
+
+5. Ejecutar y dar nombre a myhello1
+
+Con el comando de la imagen lo vamos a ejecutar y dar nombre por los argumentos que le hemos metido, run para ejecutarlo y --name para darle nmbre y llamamos a la imagen que hemos descargado antes
+
 ![image](https://github.com/user-attachments/assets/c3f4a44b-6f3b-43f8-9950-530ec8f9ba4e)
+
+6.  Ejecutar y dar nombre a myhello2
+
+Mismo proceso que antes pero le cambiamos el nombre al que corresponde 
+
 ![image](https://github.com/user-attachments/assets/a36bec16-3976-48aa-8c53-c5a10b61e1ff)
+
+7. Ejecutar y dar nombre a myhello3
+
+Mismo proceso que antes pero le cambiamos el nombre al que corresponde 
+
 ![image](https://github.com/user-attachments/assets/c785f4a4-9498-49fa-b8a4-d75d87f924b8)
+
+8. Contenedores en ejecucion
+
+Con el comando que sale en la imagen se nos va a mostrar toda la lista
+
 ![image](https://github.com/user-attachments/assets/ee414c9a-a85f-4272-ad5d-4f632f5d56d2)
-![image](https://github.com/user-attachments/assets/4a374433-e7da-4ff3-bc3b-5720619d5592)
-![image](https://github.com/user-attachments/assets/43012478-7567-4efb-8d36-4b298c9882e8)
+
+9. Parar contenedor myhello1 y 10. Parar contenedor myhello2
+
+Para parar los contenedores vamos a poner stop y el nombre del comando
+
+![image](https://github.com/user-attachments/assets/04384b30-8818-4cd3-96c8-42ab21cb9c53)
+
+11. Borrar contenedor myhello1
+
+Para borrar el contenedor vamos a poner la opcion rm mas el nombre del contenedor
+
+![image](https://github.com/user-attachments/assets/333a8371-6dc2-4506-8309-5480ee8ebcfe)
+
+12. Mostrar contenedores en ejecucion
+
+Repetimos el comando del punto 8.
+
 ![image](https://github.com/user-attachments/assets/488add18-c631-4043-8b68-b3fabf11516e)
+
+13. Borrar todos los contenedores
+
+Ponemso el siguiente comando y si no hay equivocacion en pasos anteriores deberia bastar con eso
 ![image](https://github.com/user-attachments/assets/0e89267d-e591-4242-b218-67527ed6c8a8)
 
 Tarea 4:
