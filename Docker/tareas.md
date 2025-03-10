@@ -4,14 +4,26 @@ Vamos a instalar docker en ubunto que es lo que pide la primera tarea
 
 ![image](https://github.com/user-attachments/assets/e600e726-ab0f-4f53-a616-e5216e143ab1)
 
+Para instaalr docker lo pripero que tenemso que hacer es actualizar los paquetes de ubuntu con el comando sudo apt-get update
 ![image](https://github.com/user-attachments/assets/d50fc144-b132-420e-9fec-06fad133afe4)
+
+Despues un sudo apt-get upgrade para instalar esos paquetes actualizados
 ![image](https://github.com/user-attachments/assets/41d3e059-f35c-44aa-9bd7-3c2f508296c2)
+
+Hacemos un sudo apt-get remove docker docker-engine docker.io conatinerd runc para desisnstalar los rastos de docker mas antiguos y no nos de conflicto
 ![image](https://github.com/user-attachments/assets/b7c6eea1-8ebd-4593-9e74-9c7a0f4fefd7)
+
+
 ![image](https://github.com/user-attachments/assets/26a32b2f-c86e-48f2-85d5-3b58bd83999e)
+
+Ahora en este comando ponemos la web de docker y le añadimos las claves para descargarla
 ![image](https://github.com/user-attachments/assets/cb86cdb6-1514-44e0-80bf-1b9c37447c5b)
+
+añadimos el repositorio para trabajar con el en el futuro.
 ![image](https://github.com/user-attachments/assets/d21e9d97-77f1-4938-9b42-918bc1bbcab0)
+
+y por ultimo instalamos el cliente docker con ese comando que hay en la foto.
 ![image](https://github.com/user-attachments/assets/5fa2637f-831f-4f48-ae2d-07b1dcf09a10)
-![image](https://github.com/user-attachments/assets/1374ce19-d746-4af3-a4be-a7027bcc5451)
 
 
 Tarea 2:
