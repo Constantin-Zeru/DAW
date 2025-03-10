@@ -211,17 +211,37 @@ Este ultimo comando nos va a servir para ejecutar el contenedor en segundo plano
 ![image](https://github.com/user-attachments/assets/d298ce44-3b1f-471a-9ba0-acfb255671d8)
 
 Ejemplo 2:
+
 ![image](https://github.com/user-attachments/assets/ebfa9d59-681d-459d-985d-0d39c8db7133)
 ![image](https://github.com/user-attachments/assets/fd61b4ca-1997-4b4f-a9d3-cee26fc2b63d)
 
-Tarea 5:
-
-![image](https://github.com/user-attachments/assets/3ee09c0b-9313-43fd-854f-efff73866800)
+Ejemplo 3:
 
 ![image](https://github.com/user-attachments/assets/c7d7e4f5-e86e-4969-a9d9-55dca6bd61df)
 ![image](https://github.com/user-attachments/assets/f4c02e9d-8af9-44b4-96f6-77780ae03665)
 ![image](https://github.com/user-attachments/assets/52309ab0-1f3d-4b7c-8c4c-a72e64a02ddf)
 ![image](https://github.com/user-attachments/assets/8c5cc1c6-2004-4b5a-b296-6b80ab5df1a7)
+
+Tarea 5:
+
+![image](https://github.com/user-attachments/assets/3ee09c0b-9313-43fd-854f-efff73866800)
+
+Ejemplo 1:
+![image](https://github.com/user-attachments/assets/da0a1851-756c-4581-a8d6-cb9785091f01)
+![image](https://github.com/user-attachments/assets/f11cc746-895b-4fbe-86ff-7d11a988e914)
+![image](https://github.com/user-attachments/assets/a5aed721-e332-4267-be20-a498e84a7d6b)
+
+Ejemplo 2:
+![image](https://github.com/user-attachments/assets/a70d3a1f-bb87-4289-9f6f-fba5bbced9e7)
+![image](https://github.com/user-attachments/assets/f1657709-ba33-4af8-9f50-3128866db2b7)
+![image](https://github.com/user-attachments/assets/ae2ef98c-647f-4edd-9773-a4b4b6ac9540)
+
+Ejemplo 3:
+![image](https://github.com/user-attachments/assets/c03a0adc-d4ee-409b-a260-e3d3859b8f07)
+![image](https://github.com/user-attachments/assets/5da76bd5-2833-46c0-b701-dc41ef259c92)
+![image](https://github.com/user-attachments/assets/af5e98e3-96f5-46b7-be8c-3348723a311e)
+
+
 
 
 
