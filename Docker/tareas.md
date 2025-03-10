@@ -218,6 +218,10 @@ Tarea 5:
 
 ![image](https://github.com/user-attachments/assets/3ee09c0b-9313-43fd-854f-efff73866800)
 
+![image](https://github.com/user-attachments/assets/c7d7e4f5-e86e-4969-a9d9-55dca6bd61df)
+![image](https://github.com/user-attachments/assets/f4c02e9d-8af9-44b4-96f6-77780ae03665)
+![image](https://github.com/user-attachments/assets/52309ab0-1f3d-4b7c-8c4c-a72e64a02ddf)
+![image](https://github.com/user-attachments/assets/8c5cc1c6-2004-4b5a-b296-6b80ab5df1a7)
 
 
 
