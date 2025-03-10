@@ -30,30 +30,53 @@ Tarea 2:
 Ahora nos vamos a preparar para la segunda actividad
 ![image](https://github.com/user-attachments/assets/c1c81c45-911d-4a6a-94b1-a1664f045991)
 
+
+![image](https://github.com/user-attachments/assets/45906787-655b-4cb0-85c8-7b5ff440fa50)
+
 1. Ejecutar hello-world
    
 Como en la primera parte ya tenemos docker descargado, nos va a traer la imagen de hello-world echa, asi que con el comando sudo docker run hello-world
-![image](https://github.com/user-attachments/assets/45906787-655b-4cb0-85c8-7b5ff440fa50)
+![image](https://github.com/user-attachments/assets/4bd174ce-5c91-49a1-a73f-8c1432276e79)
 
 2. Imagenes docker instaladas
 
-Con el comando sudo docker images nos mostrara directamente las imagenes que tenemos en el ordenador
-![image](https://github.com/user-attachments/assets/4bd174ce-5c91-49a1-a73f-8c1432276e79)
-
-3. Mostrar contenedores
-   
+Con el comando sudo docker images nos mostrara directamente las imagenes que tenemos en el ordenador  
 ![image](https://github.com/user-attachments/assets/f0eb083a-ac05-4271-a590-3fc39d0edd5e)
+
+3. Mostarar contenedores
+
+Con el comando sudo docker ps nos va a salir todos los conenedores que tenemos en el sistema
 ![image](https://github.com/user-attachments/assets/8c6b6eca-c2c3-4c24-b879-1e4cfbeac245)
 
 Segunda parte:
 
+1. Editar fichero
+
+vamos a crear una carpeta para trabajar sobre ella con el comando mkdir
 ![image](https://github.com/user-attachments/assets/ad55bd82-d30f-4668-9160-9d9b165f6991)
+
+Añadimos las lineas que estan en la imagen, impportante en el apartado de actualizar los paquetes escribir bien la palabra curl para que no de fallos.
 ![image](https://github.com/user-attachments/assets/8506f59b-9ab7-4dc0-9d08-84913aad0b32)
+
+2. Construir contenedor
+
+Para construir el contenedor, vamos a poner el siguiente comando en el terminal, en mi caso le e puesto el nombre de usuario/el nombre de la imagen con la ultima version
 ![image](https://github.com/user-attachments/assets/b2cdc0c3-7fb0-4eee-a47f-5eedbda64694)
-![image](https://github.com/user-attachments/assets/abbcd9fe-1692-40dd-9bb1-8b2d89401069)
+
+3. Ejecutar contenedor
+
+Ahora para ejecutarlo lo que tenemos que hacer poner el comando sudo docker run y el nombre completo del contenedor que hemos creado antes
 ![image](https://github.com/user-attachments/assets/bff3468e-43be-4b91-8a81-1cdb34134d90)
+
+4. Cuenta hub.docker.com
+
+Primero tenemos que hacer el login en docker con el comando que sale en la imagen, le vamos a dar al enlace de docker de la imagen, nos va a llevar a una pagina web, tambien necesitamos copiar el codigo de confirmacion que sale en el terminal 
 ![image](https://github.com/user-attachments/assets/fb2ec756-738b-4e8b-bf1e-ec466c724712)
+
+Cuando estemos en la pagina web del enlace del terminal, como se explica en el anterior paso vamos a pegar el codigo de confirmacion y vamos a entrar con nuestros credenciales de docker. 
 ![image](https://github.com/user-attachments/assets/570479e8-4e06-443c-8491-04d7f7b2c3fa)
+
+
 ![image](https://github.com/user-attachments/assets/5ea2e282-67f4-45bf-b220-e15e9dca1e95)
 ![image](https://github.com/user-attachments/assets/5105cc20-5750-4fa0-b48c-042f0c774809)
 ![image](https://github.com/user-attachments/assets/5f6c9945-5f30-4930-a3fb-b18c53a5209a)
