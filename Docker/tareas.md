@@ -194,12 +194,20 @@ Ponemso el siguiente comando y si no hay equivocacion en pasos anteriores deberi
 ![image](https://github.com/user-attachments/assets/0e89267d-e591-4242-b218-67527ed6c8a8)
 
 Tarea 4:
-
+Vamos con la tarea 4
 ![image](https://github.com/user-attachments/assets/0117967c-3e97-4e0c-bffe-37d383e61dc7)
 
 Ejemplo 1:
+
+Vamos a crear la red con la que vamos a trabajar con el comando que sale en la imagen
+
 ![image](https://github.com/user-attachments/assets/0cc2cebf-5234-4080-94ea-04743e9c6a32)
+
+Con el comando de la imagen vamos a ejecutar los contenedores
+
 ![image](https://github.com/user-attachments/assets/4f4bd287-c1b0-4eea-9b07-7c3a9822e45a)
+
+Este ultimo comando nos va a servir para ejecutar el contenedor en segundo plano con la imagen iesgn/guestbook, exponiendo el servicio en el puerto 80 del host y conectándolo a una red específica.
 ![image](https://github.com/user-attachments/assets/d298ce44-3b1f-471a-9ba0-acfb255671d8)
 
 Ejemplo 2:
