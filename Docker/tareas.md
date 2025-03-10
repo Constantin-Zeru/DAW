@@ -212,33 +212,65 @@ Este ultimo comando nos va a servir para ejecutar el contenedor en segundo plano
 
 Ejemplo 2:
 
+Vamos a craer la red para la aplicacion de la temperatura
 ![image](https://github.com/user-attachments/assets/ebfa9d59-681d-459d-985d-0d39c8db7133)
+
+vamos a ejecetura el comando de la foto para crear el contenedor de esta red
 ![image](https://github.com/user-attachments/assets/fd61b4ca-1997-4b4f-a9d3-cee26fc2b63d)
+
+Despues con localhost nos debe salir si esta todo bien echo
+![image](https://github.com/user-attachments/assets/1785ef15-923c-4bcb-87e2-b701c705ce8f)
+
 
 Ejemplo 3:
 
+Mismo modo, creamos primero la red
 ![image](https://github.com/user-attachments/assets/c7d7e4f5-e86e-4969-a9d9-55dca6bd61df)
+
+Primero creamos la imagen del servidor mysql
 ![image](https://github.com/user-attachments/assets/f4c02e9d-8af9-44b4-96f6-77780ae03665)
+
+Despues creamos el servidor wordpress
 ![image](https://github.com/user-attachments/assets/52309ab0-1f3d-4b7c-8c4c-a72e64a02ddf)
+
+Lo ejecutamso con localhost y deberia ir.
 ![image](https://github.com/user-attachments/assets/8c5cc1c6-2004-4b5a-b296-6b80ab5df1a7)
 
 Tarea 5:
 
 ![image](https://github.com/user-attachments/assets/3ee09c0b-9313-43fd-854f-efff73866800)
 
-Ejemplo 1:
+Ejemplo 1: Despliegue de la aplicación guestbook
+
+Creamos nuestro propio docker-compose.yml con las siguientes líneas:
 ![image](https://github.com/user-attachments/assets/da0a1851-756c-4581-a8d6-cb9785091f01)
+
+Se crea el escenario con el comando de la imagen
 ![image](https://github.com/user-attachments/assets/f11cc746-895b-4fbe-86ff-7d11a988e914)
+
+Se accede al localhost mas el puerto que se le a puesto y deberia ir sin ningun problema
 ![image](https://github.com/user-attachments/assets/a5aed721-e332-4267-be20-a498e84a7d6b)
 
-Ejemplo 2:
+Ejemplo 2: Despliegue de la aplicación Temperaturas
+
+Accedo al docker-compose.yml y coloco lo siguiente:
 ![image](https://github.com/user-attachments/assets/a70d3a1f-bb87-4289-9f6f-fba5bbced9e7)
+
+Una vez que cambiamos el contenido del compose.yml y lo guardamos y hacemos el escenario otra vez para poder acceder
 ![image](https://github.com/user-attachments/assets/f1657709-ba33-4af8-9f50-3128866db2b7)
+
+en localhost mas el puerto deberia sin problemas
 ![image](https://github.com/user-attachments/assets/ae2ef98c-647f-4edd-9773-a4b4b6ac9540)
 
-Ejemplo 3:
+Ejemplo 3:Despliegue de WordPress + Mariadb
+
+Accedo al docker-compose.yml y coloco lo siguiente:
 ![image](https://github.com/user-attachments/assets/c03a0adc-d4ee-409b-a260-e3d3859b8f07)
+
+Una vez que cambiamos el contenido del compose.yml y lo guardamos y hacemos el escenario otra vez para poder acceder
 ![image](https://github.com/user-attachments/assets/5da76bd5-2833-46c0-b701-dc41ef259c92)
+
+en localhost mas el puerto deberia sin problemas
 ![image](https://github.com/user-attachments/assets/af5e98e3-96f5-46b7-be8c-3348723a311e)
 
 
