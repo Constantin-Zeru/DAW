@@ -27,10 +27,21 @@ y por ultimo instalamos el cliente docker con ese comando que hay en la foto.
 
 
 Tarea 2:
+Ahora nos vamos a preparar para la segunda actividad
 ![image](https://github.com/user-attachments/assets/c1c81c45-911d-4a6a-94b1-a1664f045991)
 
+1. Ejecutar hello-world
+   
+Como en la primera parte ya tenemos docker descargado, nos va a traer la imagen de hello-world echa, asi que con el comando sudo docker run hello-world
 ![image](https://github.com/user-attachments/assets/45906787-655b-4cb0-85c8-7b5ff440fa50)
+
+2. Imagenes docker instaladas
+
+Con el comando sudo docker images nos mostrara directamente las imagenes que tenemos en el ordenador
 ![image](https://github.com/user-attachments/assets/4bd174ce-5c91-49a1-a73f-8c1432276e79)
+
+3. Mostrar contenedores
+   
 ![image](https://github.com/user-attachments/assets/f0eb083a-ac05-4271-a590-3fc39d0edd5e)
 ![image](https://github.com/user-attachments/assets/8c6b6eca-c2c3-4c24-b879-1e4cfbeac245)
 
