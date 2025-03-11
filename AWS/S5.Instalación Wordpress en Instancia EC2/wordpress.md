@@ -119,8 +119,10 @@ Ya que tenemso esta parte echa vamos al na vegador otra vez y vamos a darle un t
 ![image](https://github.com/user-attachments/assets/d0c8eb2e-9ca7-4b19-a430-86eefd8456e2)
 
 Recargamos la pagina y nos saldra las credenciales, ponemos las credenciales que hemos creado enates con nuestro usuario y nuestra contraseña y estamos dentro.
+
 ![image](https://github.com/user-attachments/assets/a9848e68-cbbb-4e15-8361-e00d63e3c80c)
 
+![image](https://github.com/user-attachments/assets/899becea-d86c-456a-9055-a12654bf609f)
 
 
 
