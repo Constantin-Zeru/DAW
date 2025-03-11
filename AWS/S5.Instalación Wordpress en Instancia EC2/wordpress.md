@@ -122,7 +122,6 @@ Recargamos la pagina y nos saldra las credenciales, ponemos las credenciales que
 
 ![image](https://github.com/user-attachments/assets/a9848e68-cbbb-4e15-8361-e00d63e3c80c)
 
-![image](https://github.com/user-attachments/assets/899becea-d86c-456a-9055-a12654bf609f)
 
 
 
